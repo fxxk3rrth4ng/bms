@@ -1,0 +1,32 @@
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+td,
+tr {
+	border: 1px solid black;
+}
+
+table,
+td,
+tr {
+	border-collapse: collapse;
+}
+
+.artist {
+	width: 220px;
+}
+
+.title {
+	width: 440px;
+}
+
+.link {
+	width: 50px;
+	text-align: center;
+}

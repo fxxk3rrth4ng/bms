@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>BMS</title>
+	</head>
+	<body>
+		<div class="searchBox">
+			<div class="header">
+				<h1>Search</h1>
+				<input
+					onkeyup="filter()"
+					type="text"
+					id="titleValue"
+					placeholder="제목으로 검색"
+				/>
+			</div>
+		</div>
+
+		<div style="margin-top: 15px" />
+
+		<table>
+			<tr class="item">
+				<td class="artist">xi</td>
+				<td class="title">.357 Magnum</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://www.mediafire.com/file/cqsegz4kun92wuk/357_Magnum.zip/file"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">SHIKI</td>
+				<td class="title">Air</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://www.mediafire.com/file/x0g19s3upy3pktw/Air.zip/file"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">Agilion</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://drive.google.com/u/0/uc?id=1brbMBU-IgMpyg_ZZEMpxzREQfkXJhEHv&export=download"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">Aleph-0</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/dplhitzoba952zl/%5Bclover%5DLeaF_Aleph0.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">Alice in Misanthrope -厭世アリス-</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/to7vhqhrr2p9f4m/%5Bclover%5DLeaF_AliceinMisanthrope.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">xi</td>
+				<td class="title">Aragami</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/Aragami.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">ZUN remixed by LeaF</td>
+				<td class="title">Armageddon</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://www.dropbox.com/s/qd8w45k1ucgqm89/%5BLeaF%5DArmageddon.zip?dl=1"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">ATHAZA</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/7us47hsfi1x88a3/%5Bclover%5DLeaF_ATHAZA_1103.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Magic Mash Man (削除)</td>
+				<td class="title">AXION</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/AXION.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">nora2r</td>
+				<td class="title">B.B.K.K.B.K.K.</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/B.B.K.K.B.K.K.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">ZUN remixed by LeaF</td>
+				<td class="title">Calamity Fortune</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/cj2c3hfzr1gyofb/Calamity_Fortune_LeaF.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Cranky+siromaru</td>
+				<td class="title">conflict</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/conflict.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Frums</td>
+				<td class="title">Credits</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://drive.google.com/uc?export=download&id=0B_UGmHjKgxKoNjlsbDJKbWZ6V2s"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Sound Souler</td>
+				<td class="title">Dead Soul</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dropbox.com/s/n4l6malr7usqzpp/[SS001]soundsouler_dead_soul_ogg.zip?dl=1"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">削除</td>
+				<td class="title">Destr0yer</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://www.mediafire.com/file/868jnwicyai7ukv/destr0yer.zip/file"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">Doppelganger</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/wnijuvwvwhe9beb/Doppelganger_LeaF.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Mastermind<br />(xi+nora2r)</td>
+				<td class="title">Dreadnought</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://www.mediafire.com/file/ahb3fwm11lgv2cn/dreadnought.zip/file"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">linear ring</td>
+				<td class="title">enchanted love</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://www.mediafire.com/file/3559pw3uhauobdy/enchanted_love.zip/file"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">Evanescent</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/58zxgrqeaw5t722/Evanescent_LeaF_.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">xi</td>
+				<td class="title">FREEDOM DiVE</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/FREEDOM%20DiVE.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">EBIMAYO</td>
+				<td class="title">GOODBOUNCE</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/GOODBOUNCE.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">EBIMAYO</td>
+				<td class="title">GOODTEK</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/GOODTEK.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">xi</td>
+				<td class="title">Halcyon</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/Halcyon.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">FOLiACETATE<br />(LeaF & sak)</td>
+				<td class="title">Heterochromia Iridis</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/4lo13gueojsxzoe/Heterochromia_Iridis_FOLiACETATE.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">I</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/37p3w1q2k548z1o/I_leaf_.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">t+pazolite</td>
+				<td class="title">Little "Sister" Bitch</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/Little%20%22Sister%22%20Bitch.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">t+pazolite</td>
+				<td class="title">Lyrith -迷宮リリス-</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/0h4rj6l9ebnp8ce/%5Bclover%5Dyume_Lyrith.zip?dl=1"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">MARENOL</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://www.dropbox.com/s/zix25u3r5j0gd1x/%5Bzyosouzai%5DLeaF_MARENOL.zip?dl=1"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">MEPHISTO</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/xprgiupg0jm5vkw/mephisto_leaf.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Silentroom</td>
+				<td class="title">Nhelv</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/Nhelv.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">On The Floor -Baltimore Club mix-</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/2lwlxw626bojz6o/OntheFloor_LeaF.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Frums</td>
+				<td class="title">Options</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://www.mediafire.com/file/o6x3bmw1hp3su9j/options.zip/file"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Negentropy<br />(a.k.a. Team Grimoire)</td>
+				<td class="title">ouroVoros</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/ouroVoros.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">TJ.hangneil</td>
+				<td class="title">ozma</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/ozma.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">sasakure.UK</td>
+				<td class="title">Pangaea</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/Pangaea.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">xi</td>
+				<td class="title">Parousia</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/Parousia.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">Frums</td>
+				<td class="title">Pictured as Perfect</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://drive.google.com/file/d/15nR_NEeNFilumZ7WCV7el01DQEA-NWKA/view"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">Poison AND÷OR Affection</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/px1wb4fs9oew2y5/%5Bcatastrophe%5DLeaF_PANDORA.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">モリモリあつし</td>
+				<td class="title">PUPA</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/PUPA.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">E0ri4</td>
+				<td class="title">Rainy Gate</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dropbox.com/s/qiwtgiggg16ijvr/[73KB_E0ri4]%20Rainy%20Gate.zip?dl=1"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">ZUN remixed by LeaF</td>
+				<td class="title">Wizdomiot</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/4d6ueusoi2be8u6/Wizdomiot_LeaF.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">失望Choco</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/kvqo9p749qph59p/situboChoco_leaf.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">立秋</td>
+				<td class="title">竹</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://drive.google.com/file/d/1uoT1QlEjUViDDxn1gSDOJOcww13YLRFB/view"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">佐倉翔一<br />(a.k.a. LeaF)</td>
+				<td class="title">メルヘニア -malchenia-</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/p4gszk25su5jnto/sakra_malchenia.zip?dl=0"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">LeaF</td>
+				<td class="title">もぺもぺ</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://dl.dropboxusercontent.com/s/vfteqa9wrhgi8gi/%5Bclover%5DLeaF_mopemope.zip?dl=1"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">er</td>
+				<td class="title">ハイパーミラクルシューティングスター</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/%E3%83%8F%E3%82%A4%E3%83%91%E3%83%BC%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%BC.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">立秋</td>
+				<td class="title">
+					プナイプナイげんそう ～プナイプナイinワンダーランド～
+				</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://drive.google.com/open?id=1wsSzUS23GVAjaWkdvj6DbGK4_oljeaET"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">立秋</td>
+				<td class="title">プナイプナイせんそう</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+
+			<tr class="item">
+				<td class="artist">立秋</td>
+				<td class="title">プナイプナイたいそう</td>
+				<td class="link">
+					<a
+						target="_blank"
+						href="https://bms.cosmiccat.top/BMS/Satellite%2B%E9%80%9A%E5%B8%B8%E9%9A%BE%E6%98%93%E5%BA%A6%2B%E5%8F%91%E7%8B%82%E9%9A%BE%E6%98%93%E5%BA%A6%2022.1.9/%E5%8D%95%E6%9B%B2%2022.1.9/%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E3%81%9F%E3%81%84%E3%81%9D%E3%81%86.zip"
+						>(Link)</a
+					>
+				</td>
+			</tr>
+		</table>
+
+		<script src="./searchTitle.js"></script>
+	</body>
+</html>
